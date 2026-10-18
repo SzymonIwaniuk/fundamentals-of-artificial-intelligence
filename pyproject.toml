@@ -29,14 +29,14 @@ dependencies = [
     "torchvision",
     # lab 5 - transformers, NLP
     "accelerate",
-    "datasets>=3,<4",  # 4.0+ dropped loading scripts, used by clarin-pl/poquad
+    "datasets>=3,<4", # 4.0+ dropped loading scripts, used by clarin-pl/poquad
     "evaluate",
     "peft",
     "protobuf",
-    "sacremoses",  # HerBERT tokenizer
-    "sentencepiece",  # plT5 tokenizer
+    "sacremoses", # HerBERT tokenizer
+    "sentencepiece", # plT5 tokenizer
     "tensorboard",
-    "transformers>=4.46,<5",  # 5.0 removed arguments used in lab 5
+    "transformers>=4.46,<5", # 5.0 removed arguments used in lab 5
     # lab 6 - reinforcement learning
     "numba",
     # lab 7 - recommender systems
